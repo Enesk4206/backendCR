@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* globals.css */
+.react-hot-toast {
+  z-index: 9999 !important; /* Z-index sorunlarını engellemek için */
+}
